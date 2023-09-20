@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="duration" type="I" value="4863"/>
+						<Prp name="durationwithoutchildren" type="I" value="4863"/>
+						<Prp name="name" type="S" value="Entering 2 numbers and adding them"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADQANQBBAEIAOQA0ADIALQA4ADYAMQBFAC0ANAA5ADMAOQAtAEIANABCADQALQAzAEUANwAwADgAMwA4ADAAOAAxAEMAMgB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="starttime" type="D" value="45188.9563775926"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="4863"/>
+				<Prp name="name" type="S" value="WindowsFramework"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45188.9563775926"/>
+				<Prp name="failedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="testname" type="S" value="Entering 2 numbers and adding them"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="stop" type="D" value="45188.9564395255"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="QT-UK-LT1115"/>
+		<Prp name="starttime" type="D" value="45188.9563737384"/>
+		<Prp name="user" type="S" value="Prashanthi.T"/>
+		<Prp name="name" type="S" value="SmartBearPOC"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="key" type="S" value="{19741654-F4DC-4842-880C-2F7E1A62C0FC}"/>
+	</Node>
+</Nodes>

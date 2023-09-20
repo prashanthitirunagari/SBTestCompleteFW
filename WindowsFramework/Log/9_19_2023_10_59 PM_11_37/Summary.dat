@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="durationwithoutchildren" type="I" value="15602"/>
+						<Prp name="duration" type="I" value="15602"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="starttime" type="D" value="45188.9577715046"/>
+						<Prp name="name" type="S" value="Entering 2 numbers and adding them"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4ADMAQwBDADEAMwBBADQALQA4ADcANQA1AC0ANAAyADIANQAtADgAQgA4ADEALQBEADEANAA0AEEAMwA5ADkAOQBBAEQAMQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+					</Node>
+				</Node>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="duration" type="I" value="15602"/>
+				<Prp name="name" type="S" value="WindowsFramework"/>
+				<Prp name="starttime" type="D" value="45188.9577715046"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="testname" type="S" value="Entering 2 numbers and adding them"/>
+		<Prp name="name" type="S" value="SmartBearPOC"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="user" type="S" value="Prashanthi.T"/>
+		<Prp name="key" type="S" value="{8289A690-876A-4C51-BF69-E314006FD522}"/>
+		<Prp name="starttime" type="D" value="45188.9577667477"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="QT-UK-LT1115"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="stop" type="D" value="45188.9579548727"/>
+	</Node>
+</Nodes>

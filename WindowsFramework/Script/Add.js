@@ -1,0 +1,44 @@
+﻿//USEUNIT Common
+function test1(){
+
+  Log.Message(Common.add(2,3));
+}
+
+ let landmarkTarget = Aliases.WindowsCalculator.ObjCalculator.NavView_CalcWindow.LandmarkTarget;
+ let number = landmarkTarget.Number_pad;
+ let operator = landmarkTarget.Standard_operators;
+ let result = landmarkTarget.DisplayResult;
+  
+When("user enters digit {arg}", function (param1){
+  switch(param1){
+    case "2":
+     number.Two.Click();
+     break; 
+    case "3":
+     number.Three.Click();  
+     break;   
+    case "7":
+     number.Seven.Click();
+     break;
+    case "8":
+     number.Eight.Click();
+     break;
+  }
+  
+});
+
+When("user clicks on operator {arg}", function (param1){
+  if(param1 == '+')
+   operator.Plus.Click();
+  else if (param1 == '=') 
+   operator.Equals.Click();
+  
+});
+
+Then("validate the result", function (){
+  aqObject.CheckProperty(result, "Text", cmpEqual, "10");
+});
+
+Then("validate the result is as {arg}", function (param1){
+  aqObject.CheckProperty(result, "Text", cmpEqual, param1);
+});

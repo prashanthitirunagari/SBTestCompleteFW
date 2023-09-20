@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{540944D4-176E-4988-9A46-62551C6C37A5}">
+	<children>
+		<child name="WindowsFramework" key="{E38E3B7D-256F-4138-8F28-D4163276D10B}" path="WindowsFramework\WindowsFramework.mds" />
+	</children>
+	<testItems key="{535DF1F6-DBC5-4BDE-ABE2-C6E89BC9F963}">
+		<children>
+			<testItem key="{E38E3B7D-256F-4138-8F28-D4163276D10B}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{61092FE3-E76D-4160-9F9A-311672030CA1}" />
+	<analysis key="{6CE2A9C9-5A53-4944-A7E3-57B0B9AE6AA7}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

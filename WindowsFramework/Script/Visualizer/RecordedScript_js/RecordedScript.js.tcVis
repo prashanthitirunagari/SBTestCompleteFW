@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{06B7760C-54B7-4807-AAF3-ED78CD026F9F}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45188.8840972222" objectName="Aliases.WindowsCalculator.ObjCalculator.NavView_CalcWindow.LandmarkTarget.Number_pad.Two" objectLeft="195" objectTop="752" objectRight="370" objectBottom="847" clickPointX="264" clickPointY="793" imageFileName="tcvi129444437223120.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45188.8841087963" objectName="Aliases.WindowsCalculator.ObjCalculator.NavView_CalcWindow.LandmarkTarget.Standard_operators.Plus" objectLeft="552" objectTop="752" objectRight="726" objectBottom="847" clickPointX="624" clickPointY="807" imageFileName="tcvi129445500223123.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45188.8841203704" objectName="Aliases.WindowsCalculator.ObjCalculator.NavView_CalcWindow.LandmarkTarget.Number_pad.Three" objectLeft="373" objectTop="752" objectRight="548" objectBottom="847" clickPointX="452" clickPointY="807" imageFileName="tcvi129446234223126.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="45188.8841319444" objectName="Aliases.WindowsCalculator.ObjCalculator.NavView_CalcWindow.LandmarkTarget.Standard_operators.Equals" objectLeft="552" objectTop="850" objectRight="726" objectBottom="943" clickPointX="588" clickPointY="907" imageFileName="tcvi129447234223129.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Add" key="{E75E1C89-0A22-43D0-925F-C96EFCFE166A}" path="Add.js" />
+		<child name="Common" key="{CAC47931-0D00-4263-A0BB-6940AA1370C2}" path="Common.js" />
+	</children>
+</Root>
