@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{B9AE74CB-3F58-4487-9E6F-87299FA6929E}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{5CC90C38-D8A7-4BDA-B02A-C6B3984C2B7B}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{4FCB85B7-A384-440E-9A30-2FBCCF0159F3}">
+								<Image FileName="-2112764470" Left="-11" Top="-11" Right="1931" Bottom="1019" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="HomePage" Key="{6284FA08-6AA2-44FD-B01D-95936614CFBF}">
+								<Image FileName="-2112764470" Left="6" Top="105" Right="1854" Bottom="1002" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkLogin" Key="{ED228DEE-27EA-47D6-8FA6-D0B9260DF38C}">
+										<Image FileName="-2112764470" Left="1333" Top="124" Right="1453" Bottom="183" />
+										<TypeInfo Item0="{63B77CCF-3081-4FE1-BB47-226E40180A69}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[@title=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;login-modal-show&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//li[7]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[7]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="form" Key="{F26CED80-7735-478E-95BE-7099B0BC2885}">
+										<Image FileName="-2112764470" Left="6" Top="105" Right="1831" Bottom="8324" />
+										<Selectors>
+											<Selector>
+												<Value Value="#form" />
+											</Selector>
+											<Selector>
+												<Value Value="form[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="form[@action=&apos;/&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navProducts" Key="{4F27C0E4-4C2F-463E-852C-397ADE6F8771}">
+										<Image FileName="-2112764470" Left="64" Top="105" Right="1774" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[contains(., &apos;Products&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/nav[contains(@class, &apos;main&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[@id=&apos;p_lt_Header&apos;]//nav" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogin" Key="{29F44298-0CF6-4D28-981F-E781CC14844C}">
+										<Image FileName="-2112764470" Left="1303" Top="105" Right="1453" Bottom="203" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;nav-item-login&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCrossbrowsertesting" Key="{660BD808-D5F8-4BC9-B536-82A79A901D6A}">
+										<Image FileName="1232475662" Left="1023" Top="430" Right="1229" Bottom="462" />
+										<TypeInfo Item0="{63B77CCF-3081-4FE1-BB47-226E40180A69}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;CrossBrowserTesting&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[4]/a/span[contains(@class, &apos;tile-prod-title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="LoginPage" Key="{471F1A1F-5459-4C94-B59A-9CEC064283DE}">
+								<TypeInfo Item0="{EA0163F7-5E42-4846-AA6F-DCA9BFE9EF74}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://app.crossbrowsertesting.com/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formGeneralForm" Key="{52C676D9-A02B-4B95-B531-2816BC59C9DD}">
+										<Image FileName="-1827010440" Left="611" Top="401" Right="1226" Bottom="808" />
+										<Selectors>
+											<Selector>
+												<Value Value="#general-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Email Address&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;form-horizontal&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;user-form-well&apos;]/form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailAddress" Key="{9789F122-D3CF-42AF-987A-A47FAEA6D17F}">
+										<Image FileName="-1827010440" Left="664" Top="437" Right="1174" Bottom="503" />
+										<TypeInfo Item0="{2D7E268E-39BA-42BA-BD2D-74865D376345}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email Address&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#inputEmail" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPassword" Key="{3C5A46B5-8EDC-4F1E-8DAD-142944D3FE61}">
+										<Image FileName="-262689427" Left="664" Top="556" Right="1174" Bottom="622" />
+										<TypeInfo Item0="{2D7E268E-39BA-42BA-BD2D-74865D376345}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Password&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#inputPassword" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLoginBtn" Key="{C670F181-00FC-49F3-9BE0-1C8FC07E4684}">
+										<Image FileName="-1864596428" Left="664" Top="692" Right="1174" Bottom="760" />
+										<TypeInfo Item0="{0F6CF69F-570F-4A21-8E97-233FCB2E92D3}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#login-btn" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Log In&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;user-form-well&apos;]/form//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@id=&apos;general-form&apos;]//button" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;user-form-well&apos;]/form//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelInvalidUsernameAndPassword" Key="{C6323D94-DD92-40BD-82C3-12D06EF02BE2}">
+										<Image FileName="1904991233" Left="622" Top="412" Right="1237" Bottom="496" />
+										<TypeInfo Item0="{3C082D21-33DD-4EA5-AC7C-1F87DF37E3D8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[text()=&apos;Invalid username and password combination!&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;alert-error&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{5CC90C38-D8A7-4BDA-B02A-C6B3984C2B7B}">
+			<Child Name="BrowserWindow" Owner="{4FCB85B7-A384-440E-9A30-2FBCCF0159F3}" />
+			<Child Name="HomePage" Owner="{6284FA08-6AA2-44FD-B01D-95936614CFBF}">
+				<Child Name="linkLogin" Owner="{ED228DEE-27EA-47D6-8FA6-D0B9260DF38C}" />
+				<Child Name="form" Owner="{F26CED80-7735-478E-95BE-7099B0BC2885}">
+					<Child Name="navProducts" Owner="{4F27C0E4-4C2F-463E-852C-397ADE6F8771}">
+						<Child Name="textnodeLogin" Owner="{29F44298-0CF6-4D28-981F-E781CC14844C}" />
+					</Child>
+					<Child Name="textnodeCrossbrowsertesting" Owner="{660BD808-D5F8-4BC9-B536-82A79A901D6A}" />
+				</Child>
+			</Child>
+			<Child Name="LoginPage" Owner="{471F1A1F-5459-4C94-B59A-9CEC064283DE}">
+				<Child Name="formGeneralForm" Owner="{52C676D9-A02B-4B95-B531-2816BC59C9DD}">
+					<Child Name="textboxEmailAddress" Owner="{9789F122-D3CF-42AF-987A-A47FAEA6D17F}" />
+				</Child>
+				<Child Name="passwordboxPassword" Owner="{3C5A46B5-8EDC-4F1E-8DAD-142944D3FE61}" />
+				<Child Name="buttonLoginBtn" Owner="{C670F181-00FC-49F3-9BE0-1C8FC07E4684}" />
+				<Child Name="panelInvalidUsernameAndPassword" Owner="{C6323D94-DD92-40BD-82C3-12D06EF02BE2}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

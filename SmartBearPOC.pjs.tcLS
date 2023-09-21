@@ -23,6 +23,9 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="default project" type="S" value="{E38E3B7D-256F-4138-8F28-D4163276D10B}"/>
 			</Node>
+			<Node name="{362808d8-0b5d-4a90-9a5a-6391504bf094}">
+				<Prp name="relpath" type="S" value="WebUIFramework\WebUIFramework.mds.tcLS"/>
+			</Node>
 			<Node name="{e38e3b7d-256f-4138-8f28-d4163276d10b}">
 				<Prp name="relpath" type="S" value="WindowsFramework\WindowsFramework.mds.tcLS"/>
 			</Node>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="StepDefinitions">
+			<child name="LoginStepDefinition" key="{21B9483D-8057-44B1-B295-375D3FC3E5AF}" path="LoginStepDefinition.js" />
+		</folder>
+		<folder name="CommonUtils">
+			<child name="Generic" key="{5C49624A-D7B1-4CA7-A9EE-D088CB0593C2}" path="Generic.js" />
+			<child name="ProjectUtils" key="{65B21948-C3BA-49E0-90BD-520CEF698281}" path="ProjectUtils.js" />
+		</folder>
+		<folder name="Pages">
+			<child name="LoginPage" key="{7681B7EB-9108-4947-B885-36B537AAD90E}" path="LoginPage.js" />
+		</folder>
+		<child name="Unit1" key="{107D63F3-F701-4F76-979B-7DD6370F8283}" path="Unit1.js" />
+	</children>
+</Root>

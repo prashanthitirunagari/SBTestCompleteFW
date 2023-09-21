@@ -2,10 +2,12 @@
 <Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{540944D4-176E-4988-9A46-62551C6C37A5}">
 	<children>
 		<child name="WindowsFramework" key="{E38E3B7D-256F-4138-8F28-D4163276D10B}" path="WindowsFramework\WindowsFramework.mds" />
+		<child name="WebUIFramework" key="{362808D8-0B5D-4A90-9A5A-6391504BF094}" path="WebUIFramework\WebUIFramework.mds" />
 	</children>
 	<testItems key="{535DF1F6-DBC5-4BDE-ABE2-C6E89BC9F963}">
 		<children>
 			<testItem key="{E38E3B7D-256F-4138-8F28-D4163276D10B}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{362808D8-0B5D-4A90-9A5A-6391504BF094}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{61092FE3-E76D-4160-9F9A-311672030CA1}" />
